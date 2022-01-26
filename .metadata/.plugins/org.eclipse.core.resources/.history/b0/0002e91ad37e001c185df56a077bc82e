@@ -1,0 +1,30 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class exercício2 {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		
+		double totalSegundos, horas, minutos = 0, segundos;
+		System.out.print("Entre com o total de segundos: ");
+		totalSegundos = leia.nextDouble();
+		
+		horas = totalSegundos / 3600;
+		minutos = (totalSegundos % 3600) / 60;
+		segundos = (totalSegundos % 3600) % 60;
+		
+		System.out.printf("O evento durou: %.0f horas", horas);
+		System.out.printf("\nO evento durou: %.1f minutos", minutos);
+		System.out.printf("\nO evento durou: %.0f segundos", segundos);
+		
+		
+		
+		
+		
+		
+		
+		leia.close();
+	}
+
+}

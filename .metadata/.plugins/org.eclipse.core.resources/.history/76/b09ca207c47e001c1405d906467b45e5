@@ -1,0 +1,16 @@
+package exerciciosdia26;
+
+import java.util.Scanner;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		int idadeAno,idadeMes,idadeDia,idadeTotal;
+		
+		System.out.println("\nQuantos anos você tem?: ");
+		
+	}
+
+}

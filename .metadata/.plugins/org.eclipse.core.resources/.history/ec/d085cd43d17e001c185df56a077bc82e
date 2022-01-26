@@ -1,0 +1,26 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class exercício2 {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		
+		double totalSegundos, horas;
+		System.out.print("Entre com o total de segundos: ");
+		totalSegundos = leia.nextDouble();
+		
+		horas = totalSegundos / 3600;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		leia.close();
+	}
+
+}
